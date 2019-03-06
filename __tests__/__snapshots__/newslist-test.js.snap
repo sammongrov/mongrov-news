@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsList renders without props 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4293914607,
+      4293914607,
+    ]
+  }
+  locations={
+    Array [
+      0,
+      1,
+    ]
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Array [
+            undefined,
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              undefined,
+              undefined,
+              Object {
+                "alignItems": "flex-start",
+                "bottom": 0,
+                "justifyContent": "center",
+                "left": 15,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "fontFamily": "OpenSans-Regular",
+                },
+                Array [
+                  undefined,
+                  null,
+                ],
+              ]
+            }
+          >
+            News
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          <View>
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "marginRight": 35,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={false}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "#2E88FF",
+                      "fontSize": 24,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "marginRight": 35,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={false}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "#A2A2A2",
+                      "fontSize": 24,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={false}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "#A2A2A2",
+                      "fontSize": 21,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "Font Awesome 5 Free",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontWeight": "700",
+                    },
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View>
+        <ActivityIndicator
+          animating={true}
+          color="#2E88FF"
+          hidesWhenStopped={true}
+          size="large"
+        />
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</BVLinearGradient>
+`;
