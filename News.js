@@ -9,12 +9,12 @@ import { setContext } from 'apollo-link-context';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import { ApolloProvider } from 'react-apollo';
 import NewsList from './NewsList';
-import {DbManager} from 'app-module';
+import {DBManager} from 'app-module';
 
 /* Styles ==================================================================== */
 const httpLink = new HttpLink({ uri: 'https://community.mongrov.com/graphql' });
 const authLink = setContext((_, { headers }) => {
-  const { token } = DbManager.app; // get token from meteor
+  const { token } = DBManager.app; // get token from meteor
   // console.log('AUTH TOKEN', token);
   return {
     headers: {

@@ -9,7 +9,7 @@ import { Icon, Screen, NavBar } from '@ui/components';
 import { Colors } from '@ui/theme_default';
 import { styles } from 'react-native-theme';
 import { iOSColors } from 'react-native-typography';
-import {DbManager} from 'app-module';
+import {DBManager} from 'app-module';
 
 class NewsCommentView extends Component {
   state = {
@@ -54,7 +54,7 @@ class NewsCommentView extends Component {
 
   commentsToMessages = (comments) =>
     comments.map((comment) => {
-      const userInDB = DbManager.user.findById(comment.userId);
+      const userInDB = DBManager.user.findById(comment.userId);
       const author = userInDB || comment.user;
       return {
         _id: comment._id,

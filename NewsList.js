@@ -28,7 +28,7 @@ import { Colors } from '@ui/theme_default';
 import _ from 'lodash';
 import AppUtils from '@mongrov/utils';
 import {Application} from '@mongrov/config' ;
-import {DbManager} from 'app-module';
+import {DBManager} from 'app-module';
 
 /* Styles ==================================================================== */
 
@@ -158,8 +158,8 @@ class NewsList extends Component {
         return null;
       });
     }
-    const user = DbManager.user.findById(data.userId)
-      ? DbManager.user.findById(data.userId)
+    const user = DBManager.user.findById(data.userId)
+      ? DBManager.user.findById(data.userId)
       : data.user;
     data.user.displayName = user.name ? user.name : user.username;
     data.user.avatarUrl = `${Application.urls.SERVER_URL}/avatar/${
