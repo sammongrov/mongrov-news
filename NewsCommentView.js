@@ -9,7 +9,7 @@ import { Icon, Screen, NavBar } from '@ui/components';
 import { Colors } from '@ui/theme_default';
 import { styles } from 'react-native-theme';
 import { iOSColors } from 'react-native-typography';
-import DbManager from '../app/DBManager';
+import {DbManager} from 'app-module';
 
 class NewsCommentView extends Component {
   state = {

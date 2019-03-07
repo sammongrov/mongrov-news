@@ -8,7 +8,7 @@ import { HttpLink } from 'apollo-link-http';
 import { setContext } from 'apollo-link-context';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import { ApolloProvider } from 'react-apollo';
-import DbManager from '../app/DBManager';
+import {DbManager} from 'app-module';
 
 /* Styles ==================================================================== */
 const httpLink = new HttpLink({ uri: 'https://community.mongrov.com/graphql' });

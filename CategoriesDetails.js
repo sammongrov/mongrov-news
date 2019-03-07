@@ -12,9 +12,9 @@ import { Card } from 'react-native-elements';
 import FastImage from 'react-native-fast-image';
 import { Colors } from '@ui/theme_default';
 import _ from 'lodash';
-import AppUtils from '@utils';
-import Application from '../constants/config';
-import DbManager from '../app/DBManager';
+import AppUtils from '@mongrov/utils';
+import {Application} from '@mongrov/config' ;
+import {DbManager} from 'app-module';
 
 /* Styles ==================================================================== */
 

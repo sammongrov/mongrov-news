@@ -7,7 +7,7 @@ import { WebView, TouchableOpacity, BackHandler, View, ScrollView } from 'react-
 import { Actions } from 'react-native-router-flux';
 import PropTypes from 'prop-types';
 import { styles } from 'react-native-theme';
-import AppUtils from '@utils';
+import AppUtils from '@mongrov/utils';
 import FastImage from 'react-native-fast-image';
 import { Icon, Screen, NavBar, Text, Avatar, AntDesignIcon } from '@ui/components';
 import { Colors } from '@ui/theme_default';

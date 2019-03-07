@@ -26,9 +26,9 @@ import { graphql, Mutation } from 'react-apollo';
 import PropTypes from 'prop-types';
 import { Colors } from '@ui/theme_default';
 import _ from 'lodash';
-import AppUtils from '@utils';
-import Application from '../constants/config';
-import DbManager from '../app/DBManager';
+import AppUtils from '@mongrov/utils';
+import {Application} from '@mongrov/config' ;
+import {DbManager} from 'app-module';
 
 /* Styles ==================================================================== */
 
